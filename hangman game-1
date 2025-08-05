@@ -1,0 +1,57 @@
+print("welcome to Hang_Man game !")
+hangman = [
+    '''+---+
+   |   |
+       |
+       |
+       |
+========''',
+    '''+---+
+   |   |
+   O   |
+       |
+       |
+========''',
+    '''+---+
+   |   |
+   O   |
+   |   |
+       |
+========''',
+    '''+---+
+   |   |
+   O   |
+  /|   |
+       |
+========''',
+    '''+---+
+   |   |
+   O   |
+  /|\  |
+       |
+========''',
+    '''+---+
+   |   |
+   O   |
+  /|\  |
+  /    |
+========''',
+    '''+---+
+   |   |
+   O   |
+  /|\  |
+  / \  |
+========'''
+]
+import random
+wordlists=["Azerbaijan","Afghanistan","Egypt","France","Germany","Spain","Ukraine" ]
+choosword=random.choice(wordlists)         
+print(hangman[0])
+for i in range(1,len(choosword)):
+  y=str(input('''" Azerbaijan","Afghanistan","Egypt","France","Germany","Spain","Ukraine":''' ))
+  if choosword==y:
+    print("congratulation u 've save a man")
+    break
+  elif choosword!=y:
+    print(hangman[i])
+    continue
