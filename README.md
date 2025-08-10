@@ -6,3 +6,8 @@ Hangman
 guess number
 made lips
 
+#apps 
+simple calculator 
+simple calculator update 
+digital clock
+
