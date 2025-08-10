@@ -5,6 +5,8 @@
 Hangman
 guess number
 made lips
+rock paper scissor game
+
 
 #apps 
 simple calculator 
